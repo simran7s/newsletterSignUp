@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Successful Signup</title>
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="p-5 mb-4 rounded-3">
+        <div class="container-fluid py-5">
+            <h1 class="display-5 fw-bold">Uh oh!</h1>
+            <p class="col-md-8 fs-4">It looks like something went wrong when you tried to sign up for the newsletter. 
+            </p>
+            <form action="/failure" method="post">
+                <button class="btn btn-primary btn-lg" type="submit">Try Again</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
